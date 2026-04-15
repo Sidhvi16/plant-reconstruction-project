@@ -1,0 +1,35 @@
+# Mac
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Large data / outputs
+*.db
+*.ply
+
+# Entire heavy folders (CRITICAL)
+01 COLMAP/
+03 FFMPEG/
+04 SCENES/
+
+# Media
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.bin
